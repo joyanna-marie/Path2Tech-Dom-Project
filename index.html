@@ -12,8 +12,46 @@
 </head>
 
 <body>
-    
+    <div class="container mt-5">
+        <h1>Welcome to <span class="text-primary">Literacy Ladies</span> Bookstore!</h1>
+        <h2>Add a book to the store</h2>
+        
+        <form id="book-form">
+            <div class="form-group">
+                <label for="title">Book Title</label>
+                <input type="text" id="title" class="u-full-width" placeholder="To Kill a Mockingbird">
+            </div>
+            <div class="form-group">
+                <label for="author">Author</label>
+                <input type="text" id="author" class="u-full-width" placeholder="John Grisham">
+            </div>
+            <div class="form-group">
+                <label for="publisher">Publisher</label>
+                <input type="text" id="publisher" class="u-full-width" placeholder="Penguin Books">
+            </div>
+            <div class="form-group">
+                <label for="isbn">ISBN</label>
+                <input type="text" id="isbn" class="u-full-width" placeholder="123456789">
+            </div>
+            <div>
+                <input type="submit" id="button" value="Add Book" class="u-full-width btn btn-primary btn-block">
+            </div>
+        </form>
+
+        <h3>Books in Stock</h3>
+        <table class="u-full-width">
+            <thead class="table table-striped mt-5">
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Publisher</th>
+                    <th>ISBN</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="book-list"></tbody>
+        </table>
+    </div>    
 </body>
 <script src="index.js" type="module"></script>
 </html>
-
