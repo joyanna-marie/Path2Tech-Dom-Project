@@ -3,7 +3,7 @@
 ## Description
 You will be building a Book Store Website using HTML, CSS, and JavaScript (aka, the DOM) based on a demo shown below. This application will enhance existing knowledge of client side development basics.
 <br>
-Below you will see a demo of the Book Store Application that will show you what features need to be added into this interactable website.
+Below you will see a demo of the Book Store Application that will show you what features need to be added into this intractable website.
 
 ## Demo
 Your Project needs to have:
@@ -52,7 +52,7 @@ Here is a Demo video of what your project should look like when you complete the
 ## Important Git/GitHub Expectations:
 - [ ] Set up a GitHub repository for your group, after the repository is set up add branch protections that require at least one PR approval before merging into `main`
 - [ ] All your work should be done within branches, and code only should be moved to `main` after a teammate has approved a pull request. As you work, do regular adds/commits to give yourself multiple "save points" just in case something goes wrong.
-- [ ] <strong>It is very important that you create a new branch off of the updated `main` branch every time you start a new feature. This branch should be used to complete the functionality associated with that branch and should be named accordingly</strong> Once the feature/functionality in this branch is finished, a PR can be made to merge the branch into `main`, and a new branch can be created for your next task. <strong>This process is crucial to minimize mere conflicts and mimicking the workfow you'll use once you join a development team.</strong>
+- [ ] <strong>It is very important that you create a new branch off of the updated `main` branch every time you start a new feature. This branch should be used to complete the functionality associated with that branch and should be named accordingly</strong> Once the feature/functionality in this branch is finished, a PR can be made to merge the branch into `main`, and a new branch can be created for your next task. <strong>This process is crucial to minimize mere conflicts and mimicking the workflow you'll use once you join a development team.</strong>
 - [ ] Use clear, descriptive, and professional commit messages. (This will make things easier if you ever have to revert to a prior commit, and it looks great to potential employers!)
 - [ ] Reference the Git Collaboration Workflow Document for a list of Git best practices! 
 
@@ -73,7 +73,7 @@ Here is a Demo video of what your project should look like when you complete the
 - [ ] Implement functionality to delete books from the list, ensure each book entry has a delete button, using an HTTP DELETE request with the `fetch` API.
 - [ ] Use Tailwind CSS for styling the application.
 - [ ] Hide any API keys using a `.env.local` or `.env` file.
-- [ ] Make your code as DRY (<strong>D</strong>on't <strong>R</strong>epeat <strong>Y</strong>ourself) as possible!
+- [ ] Make your code as DRY (<strong>D</strong>on't <strong>R</strong>repeat <strong>Y</strong>ourself) as possible!
 
 ## Bonuses
 - [ ] Use `localStorage` to cache your results. You can use `localStorage` to save your books array in, this can improve the performance of your application, because you can fetch your data from `localStorage` instead of having to wait on data to be retrieved from a remote API.
